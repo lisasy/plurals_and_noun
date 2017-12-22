@@ -1,0 +1,26 @@
+items:
+  -
+    id: 0
+    title: "Conversation Starter"
+    image_url: "catalog/conversation_starter.jpg"
+    publish: true
+  -
+    id: 1
+    title: "How We Met Through Tinder"
+    image_url: "catalog/how_we_met_through_tinder.jpg"
+    publish: true
+  -
+    id: 2
+    title: "Homeowners"
+    image_url: "catalog/homeowners.jpg"
+    publish: true
+  -
+    id: 3
+    title: "An Artist's Breadth"
+    image_url: "catalog/an_artists_breadth.jpg"
+    publish: true
+  -
+    id: 4
+    title: "Being Seen"
+    image_url: "catalog/being_seen.jpg"
+    publish: true

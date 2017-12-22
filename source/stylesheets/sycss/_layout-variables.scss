@@ -1,0 +1,39 @@
+$gt-xxl: 8em;
+$gt-xl: 4em;
+$gt-l: 2em;
+$gt-m: 1em;
+$gt-s: 0.5em;
+$gt-xs: 0.25em;
+
+// Unconditional Float Direction //
+.pull-l {
+  float: left;
+}
+
+.pull-r {
+  float: right;
+}
+
+// Mobile float left
+.mbl-f-l {
+  float: left;
+}
+
+// Mobile float right
+.mbl-f-r {
+  float: right;
+}
+
+
+// Mobile Block
+.mbl-b {
+  display: block;
+}
+
+.mbl-t-c {
+  text-align: center;
+}
+
+.mbl-nil {
+  display: none;
+}

@@ -1,0 +1,33 @@
+$base-width-desktop: 1024px;
+
+$sans-serif: Helvetica, sans-serif;
+$serif: Georgia, serif;
+$monospace: "Fira Mono", monospace;
+
+// Integer Value System, %4... 4, 8, 12, 16, 24, 32, 48, 64, 128
+
+$grey-80: #1D2129;
+$grey-50: #393939;
+$grey-30: #676767;
+$grey-10: #D8D8D8;
+
+$pn-pink: #f1abed;
+$pn-lime: #edf259;
+$pn-teal: #c3f4e8;
+
+$accent-01: $pn-pink;
+$accent-02: $pn-teal;
+
+// Override Defaults
+$base-font-color: $grey-80;
+$base-link-color: $accent-01;
+$base-font-size: 1.25em; //20
+$base-font-family: $sans-serif;
+
+// Mobile
+$base-link-color: $accent-01;
+
+$display-typeface: $monospace;
+$body-typeface: $monospace;
+
+$action-color: $accent-01;

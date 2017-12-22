@@ -1,13 +1,20 @@
 ---
-title: Welcome to Middleman
+title: Plurals and Noun
 ---
 
-<div class="welcome">
-  <div class="logo">
-    <%= image_tag "vector_brand_logo_horizontal.svg" %>
-  </div>
-  <h1>Plurals and Noun</h1>
-  <p class="doc">
-    <%= link_to "Read Documentation Online", "https://middlemanapp.com", target: "_blank" %>
-  </p><!-- .doc -->
-</div><!-- .welcome -->
+<header class="site-header">
+  <%= image_tag "vector_brand_logo_horizontal.svg", :class => "logo" %>
+  <p class="site-title">Things That Happened. Written and illustrated by <a href="http://lisasy.com" target="_blank">Lisa Sy</p>
+</header>
+
+<section class="site-container">
+  <% data.catalog.items.each_with_index do |item, index| %>
+    <figure class="item-image">
+      <%= image_tag item.image_url %>
+    </figure>
+  <% end %>
+</section>
+
+
+
+

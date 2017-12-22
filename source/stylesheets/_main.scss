@@ -1,0 +1,33 @@
+.container {
+  @include grid-container;
+  @include margin(null auto);
+  max-width: 88rem;
+  position: relative;
+  padding: 20px 0;
+
+  @include grid-media($neat-grid-tablet) {
+    padding: $small-spacing 0;
+  }
+
+  @include grid-media($neat-grid-desktop) {
+    padding: $base-spacing 0;
+  }
+}
+
+.site-title {
+  margin-left: $base-spacing * 2;
+}
+
+.item-image {
+  margin: $small-spacing $small-spacing $base-spacing;
+
+  img {
+    max-width: 100%;
+    height: auto;
+
+    @include grid-media($neat-grid-tablet) {
+      max-width: 960px;
+      height: auto;
+    }
+  }
+}

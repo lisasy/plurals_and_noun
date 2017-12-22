@@ -1,0 +1,26 @@
+body {
+  font-family: $body-typeface;
+  font-weight: 400;
+}
+
+h1, h2, h3, h4, h5, h6, p, a {
+  font-family: $body-typeface;
+  margin: 0;
+  font-weight: 400;
+}
+
+p {
+  @include grid-media($neat-grid-tablet) {
+    font-size: $base-font-size;
+    line-height: $base-font-size * 1.5;
+  }
+}
+
+a {
+  color: $base-link-color;
+
+  &:hover {
+    cursor: pointer;
+    color: shade($base-link-color, 25%);
+  }
+}
