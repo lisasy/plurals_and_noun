@@ -1,3 +1,7 @@
+.logo {
+  height: auto;
+}
+
 .container {
   @include grid-container;
   @include margin(null auto);

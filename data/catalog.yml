@@ -24,3 +24,28 @@ items:
     title: "Being Seen"
     image_url: "catalog/being_seen.jpg"
     publish: true
+  -
+    id: 5
+    title: "Shit That Happens on Tinder"
+    image_url: "catalog/shit_tinder.jpg"
+    publish: true
+  -
+    id: 6
+    title: "Bilingual Benefits"
+    image_url: "catalog/bilingual_benefits.jpg"
+    publish: true
+  -
+    id: 7
+    title: "Overheard at a Political Rally in San Francisco"
+    image_url: "catalog/overheard_at_sf_rally.jpg"
+    publish: true
+  -
+    id: 8
+    title: "Potted Plants"
+    image_url: "catalog/potted_plants.jpg"
+    publish: true
+  -
+    id: 9
+    title: "Being Seen"
+    image_url: "catalog/being_seen.jpg"
+    publish: true
